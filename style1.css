@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 20px;
+    width: 150px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 80%;
+    margin: 0 auto 30px;
+}
+
+.cta-button {
+    font-size: 20px;
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
+.flavors h1 {
+    font-size: 50px;
+}
+
+.flavor-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flavor-gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.table-section table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+    padding: 10px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-form form {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flavor-gallery {
+        flex-direction: column;
+    }
+
+    .flavor-gallery img {
+        width: 80%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
